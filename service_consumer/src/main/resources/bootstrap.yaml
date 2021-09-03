@@ -1,0 +1,10 @@
+server:
+  port: 8802
+spring:
+  application:
+    name: SERVICE-CONSUMER
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 10.68.233.54:8848
+

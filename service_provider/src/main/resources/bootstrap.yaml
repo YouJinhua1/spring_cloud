@@ -1,0 +1,9 @@
+server:
+  port: 8801
+spring:
+  application:
+    name: SERVICE-PROVIDER
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 10.68.233.54:8848
